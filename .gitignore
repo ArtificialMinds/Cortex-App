@@ -1,0 +1,5 @@
+/vendor
+/www/asset
+/www/script-*
+/www/style-*
+/www/static-fingerprint

@@ -1,0 +1,532 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "519f5e19dc9aba2843ca111c083baa5e",
+    "content-hash": "4f6a3bf257aa56785853a387f24e28dd",
+    "packages": [
+        {
+            "name": "g105b/phpcsv",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/g105b/phpcsv.git",
+                "reference": "07515f794c7fc4406dbfd3e87ce96ea5bc1483d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/g105b/phpcsv/zipball/07515f794c7fc4406dbfd3e87ce96ea5bc1483d5",
+                "reference": "07515f794c7fc4406dbfd3e87ce96ea5bc1483d5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "g105b\\phpcsv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Wraps SplFileObject's CSV capabilities with a more human approach",
+            "keywords": [
+                "csv",
+                "database",
+                "export",
+                "filter",
+                "import",
+                "iterate",
+                "read",
+                "write"
+            ],
+            "time": "2016-06-03 22:14:59"
+        },
+        {
+            "name": "katzgrau/klogger",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/katzgrau/klogger.git",
+                "reference": "46cdd92a9b4a8443120cc955bf831450cb274813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/katzgrau/klogger/zipball/46cdd92a9b4a8443120cc955bf831450cb274813",
+                "reference": "46cdd92a9b4a8443120cc955bf831450cb274813",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "psr/log": "1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Katzgrau\\KLogger\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Horrigan",
+                    "email": "dan@dhorrigan.com",
+                    "homepage": "http://dhorrigan.com",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Kenny Katzgrau",
+                    "email": "katzgrau@gmail.com"
+                }
+            ],
+            "description": "A Simple Logging Class",
+            "keywords": [
+                "logging"
+            ],
+            "time": "2014-03-20 02:36:36"
+        },
+        {
+            "name": "leafo/scssphp",
+            "version": "v0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "e89391b29b5eb66e211ce4d20ccb2bb519137c08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/e89391b29b5eb66e211ce4d20ccb2bb519137c08",
+                "reference": "e89391b29b5eb66e211ce4d20ccb2bb519137c08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "kherge/box": "~2.5",
+                "phpunit/phpunit": "~3.7",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classmap.php"
+                ],
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "time": "2015-10-23 17:15:30"
+        },
+        {
+            "name": "matthiasmullie/minify",
+            "version": "1.3.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/minify.git",
+                "reference": "325e9b9dc1016929f05edaa47401dc2337519b2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/325e9b9dc1016929f05edaa47401dc2337519b2f",
+                "reference": "325e9b9dc1016929f05edaa47401dc2337519b2f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "matthiasmullie/path-converter": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "matthiasmullie/scrapbook": "~1.0",
+                "phpunit/phpunit": "~4.8"
+            },
+            "bin": [
+                "bin/minifycss",
+                "bin/minifyjs"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\Minify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "minify@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSS & JS minifier",
+            "homepage": "http://www.minifier.org",
+            "keywords": [
+                "JS",
+                "css",
+                "javascript",
+                "minifier",
+                "minify"
+            ],
+            "time": "2016-09-20 12:58:02"
+        },
+        {
+            "name": "matthiasmullie/path-converter",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/path-converter.git",
+                "reference": "7c36e5cafa95dd20008d19b153b506cffa8c2848"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/7c36e5cafa95dd20008d19b153b506cffa8c2848",
+                "reference": "7c36e5cafa95dd20008d19b153b506cffa8c2848",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\PathConverter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "pathconverter@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Relative path converter",
+            "homepage": "http://github.com/matthiasmullie/path-converter",
+            "keywords": [
+                "converter",
+                "path",
+                "paths",
+                "relative"
+            ],
+            "time": "2016-04-27 10:38:05"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2014-05-05 02:43:50"
+        },
+        {
+            "name": "phpgt/webengine",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpgt/webengine.git",
+                "reference": "06cdd43ec224193e72c9c6d92041d1262e4db8a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpgt/webengine/zipball/06cdd43ec224193e72c9c6d92041d1262e4db8a6",
+                "reference": "06cdd43ec224193e72c9c6d92041d1262e4db8a6",
+                "shasum": ""
+            },
+            "require": {
+                "g105b/phpcsv": "1.*",
+                "katzgrau/klogger": "1.0.*",
+                "leafo/scssphp": "0.3.*",
+                "matthiasmullie/minify": "1.3.*",
+                "michelf/php-markdown": "1.4.1",
+                "symfony/console": "2.5.*",
+                "symfony/css-selector": "2.3.28"
+            },
+            "require-dev": {
+                "behat/behat": "@stable",
+                "behat/mink-extension": "@stable",
+                "behat/mink-goutte-driver": "@stable",
+                "phpunit/phpunit": "@stable",
+                "satooshi/php-coveralls": "@stable"
+            },
+            "bin": [
+                "bin/serve",
+                "bin/test"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Web application development as it's meant to be.",
+            "keywords": [
+                "application",
+                "database",
+                "dom",
+                "framework",
+                "gt",
+                "mysql",
+                "php",
+                "phpgt",
+                "sass",
+                "service",
+                "sql",
+                "web",
+                "webservice"
+            ],
+            "time": "2016-09-10 14:47:50"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.5.12",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-08 07:07:45"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v2.3.28",
+            "target-dir": "Symfony/Component/CssSelector",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "7deb1f67f7776866f85df1124360acb5b3134122"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7deb1f67f7776866f85df1124360acb5b3134122",
+                "reference": "7deb1f67f7776866f85df1124360acb5b3134122",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-05-01 14:06:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
